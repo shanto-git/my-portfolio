@@ -70,6 +70,10 @@ nav li a{
     border: none;
 }
 
+.margin-button{
+    margin-top: 30px;
+}
+
 /*banner*/
 .banner{
     display: flex;
@@ -105,6 +109,8 @@ nav li a{
 main{
     max-width: 1140px;
     margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 /*Section style*/
@@ -113,6 +119,7 @@ main{
     color: #181818;
     font-size: 35px;
     font-weight: 700;
+    text-align: center;
 }
 
 .section-description{
@@ -152,4 +159,32 @@ main{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px #D1D1D1 ;
+}
+
+/*resume section style*/
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+/*footer style*/
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 22px;
 }
